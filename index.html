@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de David</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- tirar desse padrao deixar algo mais inovador -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#welcome-section">Início</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- deixar mais apresentavel -->
+  <section id="welcome-section">
+    <h1>Bem-vindo ao meu Portfólio</h1>
+    <p>Sou David, estudante de Programação e apaixonado por Desenvolvimento Web.</p>
+  </section>
+
+  <!-- Fazer e adicionar mais projetos, nao esquecer de criar uma secao para jogos e coisas por fora de jogos.-->
+  <section id="projects">
+    <h2>Meus Projetos</h2>
+    <div class="project-container">
+      <!--Pong -->
+      <div class="project-tile">
+        <video id="video1" src="IntroPong.mp4" muted playsinline 
+          onmouseover="this.play()" 
+          onmouseout="this.pause(); this.currentTime = 0">
+        </video>
+        <a href="https://dandat309.GitHub.io/Ping-Pong/" target="_blank">Ping-Pong</a>
+      </div>
+      <!-- algo da godot provavelmente -->
+      <div class="project-tile">
+        <img src="projeto2.png" alt="Projeto 2">
+        <a href="https://GitHub.com/david/projeto2" target="_blank">Projeto 2</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contatos -->
+  <section id="contact">
+    <h2>Contato</h2>
+    <div class="contact-container">
+      <div class="contact-card">
+        <img src="image (1).png" alt="Instagram">
+        <p><a href="https://www.instagram.com/davidbelfortsizario/" target="_blank">Instagram</a></p>
+      </div>
+      <div class="contact-card">
+        <img src="9919.png" alt="GitHub-icon">
+        <p><a href="https://GitHub.com/dandat309" target="_blank">GitHub</a></p>
+      </div>
+      <div class="contact-card">
+        <img src="174857.png" alt="Linkedin-icon">
+        <p><a href="https://www.Linkedin.com/in/david-belfort-sizario-bb55a8298" target="_blank">Linkedin</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- creditos -->
+  <footer>
+    <p>&copy; 2025 David. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
